@@ -58,7 +58,6 @@ namespace vxodnoikontrol06._09._22
 
         }
 
-
         public static void perimeterAndArea(double x1, double x2, double y1, double y2)
         {
             double a = Math.Abs(x2 - x1);
@@ -68,8 +67,6 @@ namespace vxodnoikontrol06._09._22
             Console.WriteLine($"Периметр прямоугольника = {p}");
             Console.WriteLine($"Площадь прямоугольника = {s}");
         }
-
-
         public static void fib(int f)
         {
             int[] mas = new int[f];
@@ -87,7 +84,6 @@ namespace vxodnoikontrol06._09._22
                 }
             }
         }
-
 
         public static void logarithm(double a, double b)
         {
@@ -114,7 +110,6 @@ namespace vxodnoikontrol06._09._22
             }
         }
 
-
         public static void desc(int n)
         {
             if ((n > 1) && (n < 10))
@@ -133,7 +128,6 @@ namespace vxodnoikontrol06._09._22
             }
         }
 
-
         public static void sequence(int p)
         {
                 double sum = 0;
@@ -143,7 +137,5 @@ namespace vxodnoikontrol06._09._22
                 }
                 Console.WriteLine($"Сумма: {sum}");
         }
-
-
     }
 }
